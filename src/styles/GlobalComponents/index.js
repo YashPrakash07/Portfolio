@@ -30,8 +30,8 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background-image: linear-gradient(-28.57deg, rgb(24, 26, 27) -8.23%, rgba(24, 26, 27, 0.66) 47.15%);
-  background-color: darkorange;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
